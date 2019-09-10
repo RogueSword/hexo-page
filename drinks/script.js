@@ -17,9 +17,9 @@ $('#paypal-donate>a').href = PayPalLink;
 $('#github-box>a').href = GithubLink;
 var qrcodes = {
     'btc_donate'	:	'../simple/images/BTCQR.png',	// 二维码路径
-    'alipay_donate'	:	'../simple/images/AliPayQR.png',	// 支付宝二维码
+    'alipay_donate'	:	'https://raw.githubusercontent.com/RogueSword/Imgs_backup/master/res/20190910165525.png',	// 支付宝二维码
     'alipay_donate_link'   :   'https://qr.alipay.com/3272611934645308',   // 支付宝二维码上的链接，必须换成自己的连接！！！
-    'wechat_donate'	:	'../simple/images/WeChanSQ.png'
+    'wechat_donate'	:	'https://raw.githubusercontent.com/RogueSword/Imgs_backup/master/res/20190910165525.png'
 };
 
 var drinks_an = new Object();
