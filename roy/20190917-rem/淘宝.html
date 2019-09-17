@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>网易</title>
+  <style>
+    p{
+      font-size: 0.2rem;
+    }
+    .div1{
+      width: 1rem;
+      height: 
+      background-color: red;
+    }
+    .div2{
+      width: 2rem;
+      height: 2rem;
+      background-color: blue;
+    }
+  </style>
+  <script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
+</head>
+<body>
+    <p>chrome 浏览器，手机模拟器模式，iphone5</p>
+    <div class="div1"></div>
+    <div class="div2"></div>
+
+    <br>
+    <br>
+    <p>说明：此时可以看到实际的元素的宽高为50px, 100px。</p>
+  <script>
+    // div1宽高为100px, div2宽高为200px
+    // 通过 flexible 库，自动设定每个屏幕宽度的font-size、动态 view-port、针对 retina 屏幕做的 dpr。
+    // 同时将设计稿640px划分为10份，可以理解为页面的宽度为10rem，则每个区域的宽度为1rem = 64px;即设置页面根元素font-size: 64px
+    // 据此设置 rem 值为： 设计稿元素宽度 px/64
+  </script>
+</body>
+</html>

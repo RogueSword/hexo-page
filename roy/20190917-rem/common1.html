@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>62.5%</title>
+  <style>
+    html{
+      font-size: 62.5%;
+    }
+    .div1{
+      width: 5rem;
+      height: 5rem;
+      background-color: red;
+    }
+    .div2{
+      width: 10rem;
+      height: 10rem;
+      background-color: blue;
+    }
+  </style>
+</head>
+<body>
+    <p style="font-size: 2rem">chrome 浏览器，手机模拟器模式，iphone5</p>
+    <div class="div1"></div>
+    <div class="div2"></div>
+
+    <br>
+    <br>
+    <p>说明：此时可以看到实际的元素的宽高为60px, 120px。 因为 font-size 的基数为12px, 12 * 5, 12 * 10</p>
+  <script>
+    // div1宽高为100px, div2宽高为200px
+    // 正常的浏览器默认字体大小为 16px，设置根元素大小为 font-size: 62.5%，即1rem = 10px
+    // 据此设置 rem 值为： 设计稿元素宽度 px/2/10
+
+  </script>
+</body>
+</html>
